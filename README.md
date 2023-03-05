@@ -60,3 +60,14 @@
 
 
 Devamı  : [Hepsini Gör](https://github.com/FerhatCengz/Turkiye_il_ilce.json/blob/main/il_ilce.json)
+
+
+
+
+Fetch Request  
+
+		    fetch("https://raw.githubusercontent.com/FerhatCengz/Turkiye_il_ilce.json/main/il_ilce.json")
+		    .then(dataResponse => dataResponse.json())
+		    .then(readyJson => console.log(readyJson));
+		    
+		    
